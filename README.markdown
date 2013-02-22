@@ -1,3 +1,5 @@
+**Edit February 2013:** Please do not use this code anymore. The iOS SDK has progressed tremendously since I worked on this code and wrote a blog post about it in 2010. The SDK now provides a native implementation of the page curl gesture/animation in the form of [`UIPageViewController`](http://developer.apple.com/library/ios/#documentation/uikit/reference/UIPageViewControllerClassReferenceClassRef/UIPageViewControllerClassReference.html). This API is a lot more flexible and easier to use than the Leaves project.
+
 #Leaves
 
 Leaves is an simple way to present a page-turning interface similar to Apple's iBooks.  It comprises two classes, `LeavesView` and `LeavesViewController`, and occupies less than 100 kB compiled.  It uses only public APIs, sacrificing a portion of iBooks' visual flair to ensure that your application is safe for submission to the App Store.
